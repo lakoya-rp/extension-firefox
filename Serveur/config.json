@@ -1,0 +1,11 @@
+{
+    "api": {
+        "unturned-server":"WNE5mcSBX3GK5yAqSOXTDCGCToXRCQi1W8m",
+        "url":"https://unturned-servers.net/api/?object=servers&element=detail&key=WNE5mcSBX3GK5yAqSOXTDCGCToXRCQi1W8m",
+        "domain":"unturned-servers.net",
+        "folder":"/api/?object=servers&element=detail&key=WNE5mcSBX3GK5yAqSOXTDCGCToXRCQi1W8m"
+    },
+    "timeloop": {
+        "milliseconds":"5000"
+    }
+}

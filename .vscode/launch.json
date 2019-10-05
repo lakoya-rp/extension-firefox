@@ -7,8 +7,22 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Lancer le programme",
-            "program": "${workspaceFolder}\\script\\server.js"
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/Serveur/api.js"
+        },
+        {
+            "type": "extensionHost",
+            "request": "launch",
+            "name": "Lancer l'extension",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm"
         }
+
     ]
 }
